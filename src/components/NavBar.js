@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const Nav = styled.nav`
-  margin: 1rem 15%;
+  margin: 0;
+    padding: 1rem;
 `;
 
 const NavBar = () => {
@@ -14,6 +15,7 @@ const NavBar = () => {
             src="https://images.primeagile.com/ibcscorp_com/image/18915/ibcscorp-logo-image.webp"
             alt="ibcsc logo"
             loading="lazy"
+            width={'160px'}
           />
         </a>
       </Nav>
