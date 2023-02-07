@@ -25,7 +25,6 @@ const MainModal = styled.div`
   border-radius: ${({ borderRadius }) => (borderRadius ? borderRadius : "8px")};
   /* padding: ${({ padding }) => (padding ? padding : "1rem")}; */
   overflow: ${({ overflow }) => overflow};
-
   div svg {
     opacity: 1;
     font-size: 0.9rem;
@@ -44,20 +43,16 @@ const ModalBody = styled.div`
   ::-webkit-scrollbar {
     height: 5px;
   }
-
   ::-webkit-scrollbar-track {
     background-color: transparent;
   }
-
   ::-webkit-scrollbar-thumb {
     background-color: #d6dee1;
   }
-
   ::-webkit-scrollbar-thumb {
     background-color: #d6dee1;
     border-radius: 1px;
   }
-
   ::-webkit-scrollbar-thumb {
     background-color: #d6dee1;
     border-radius: 1px;
@@ -67,19 +62,15 @@ const ModalBody = styled.div`
 const ModalHeader = styled.div`
   background-color: ${({ headerBG }) => (headerBG ? headerBG : "#fff")};
   color: ${({ headerColor }) => (headerColor ? headerColor : "black")};
-
   //padding: 10px;
   padding: ${({ padding }) => (padding ? padding : "1rem")};
-
   h3 {
     margin: 0;
     padding: 0;
   }
-
   display: flex;
   align-items: start !important;
   justify-content: space-between;
-
   h4 {
     color: ${({ cancelButtonColor }) =>
       cancelButtonColor ? cancelButtonColor : "black"};
@@ -97,12 +88,10 @@ const ModalFooter = styled.div`
   gap: 10px;
   justify-content: end;
   align-items: center;
-
   .cancelFooter {
     cursor: pointer;
     color: ${({ cancelButtonColor }) =>
       cancelButtonColor ? cancelButtonColor : "black"};
-
     &:hover {
       border-bottom: 1px solid #ccc;
     }

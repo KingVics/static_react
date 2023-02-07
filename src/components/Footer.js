@@ -20,6 +20,11 @@ const Links = styled.div`
     text-decoration: none;
     color: white;
   }
+
+  @media screen and (max-width: 1024px) {
+    display: grid;
+    text-align: center;
+  }
 `;
 
 const Copyright = styled.div`

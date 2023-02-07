@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 const TopTextContainer = styled.div`
-  margin: 7rem 25rem;
+  margin: 7rem 15rem;
   text-align: center;
   font-size: 1.2rem;
 
   @media screen and (max-width: 1024px) {
-    margin: 7rem 7rem;
+    margin: 4rem 4rem;
   }
 `;
 
