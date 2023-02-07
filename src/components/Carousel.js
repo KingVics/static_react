@@ -39,6 +39,7 @@ const CarouselCard = styled.div`
   @media screen and (max-width: 600px) {
     display: grid !important;
     height: 60rem;
+    border-radius: 0rem;
 
     .image {
       width: 100%;
