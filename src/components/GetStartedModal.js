@@ -21,17 +21,14 @@ const GetStartedModal = ({
   submitForm,
   isSubmitting,
 }) => {
-  const [mQuery, setMQuery] = useState({
-    matches: window.innerWidth > 768 ? true : false,
-  });
+  const [mQuery, setMQuery] = useState(false);
 
-  console.log(mQuery)
 
 
   useEffect(() => {
-    let mediaQuery = window.matchMedia("(min-width: 768px)");
-    mediaQuery.addEventListener('resize',setMQuery, true);
-    return () => mediaQuery.removeEventListener('resize',setMQuery, true);
+    let mediaQuery = window.matchMedia("(max-width: 768px)");
+    mediaQuery.addEventListener('resize',setMQuery(true), true);
+    return () => mediaQuery.removeEventListener('resize',setMQuery(false), true);
   }, [mQuery])
 
 
@@ -40,14 +37,14 @@ const GetStartedModal = ({
       show={getStartedModal}
       setShow={setGetStartedModal}
       top={"25vh"}
-      left={mQuery.matches ? '47% !important':"37%"}
+      left={mQuery ? '47% !important':"37%"}
       background="#fff"
       initial={{ top: "0vh", left: "50%", opacity: 0 }}
       exit={{ top: "0vh", left: "50%", opacity: 0 }}
       animate={{ top: "50vh", left: "50%", opacity: 1 }}
       theme="rgba(0,0,0,.5)" // width={Query ? '50%' : '90%'}
       overFlow="auto"
-      width={mQuery.matches ? '80%' : "40%"}
+      width={mQuery ? '80%' : "40%"}
       height={"30%"}
       borderRadius={"3px"}
       ButtonBG={"rgb(240,240,240)"}
