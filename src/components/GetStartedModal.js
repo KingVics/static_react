@@ -40,14 +40,14 @@ const GetStartedModal = ({
       show={getStartedModal}
       setShow={setGetStartedModal}
       top={"25vh"}
-      left={mQuery ? '47% !important':"37%"}
+      left={mQuery.matches ? '47% !important':"37%"}
       background="#fff"
       initial={{ top: "0vh", left: "50%", opacity: 0 }}
       exit={{ top: "0vh", left: "50%", opacity: 0 }}
       animate={{ top: "50vh", left: "50%", opacity: 1 }}
       theme="rgba(0,0,0,.5)" // width={Query ? '50%' : '90%'}
       overFlow="auto"
-      width={mQuery ? '80%' : "40%"}
+      width={mQuery.matches ? '80%' : "40%"}
       height={"30%"}
       borderRadius={"3px"}
       ButtonBG={"rgb(240,240,240)"}
