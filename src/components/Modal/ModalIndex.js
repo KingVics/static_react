@@ -109,17 +109,7 @@ const ModalFooter = styled.div`
   }
 `;
 
-const ButtonContainer = styled.div`
-  display: flex;
-  display: -webkit-flex;
-  justify-content: ${({ justifyButton }) =>
-    justifyButton ? justifyButton : "flex-end"};
-  -webkit-box-align: ${({ justifyButton }) =>
-    justifyButton ? justifyButton : "end"};
-  -webkit-box-pack: ${({ justifyButton }) =>
-    justifyButton ? justifyButton : "end"};
-  padding: 10px 10px 0px;
-`;
+
 
 const ModalOverLay = ({
   justifyButton,
