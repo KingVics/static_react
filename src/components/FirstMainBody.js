@@ -6,6 +6,7 @@ const BodyContainer = styled.div`
 
   @media screen and (max-width: 1024px) {
     display: grid;
+    min-width: fit-content;
   }
 `;
 
@@ -15,7 +16,8 @@ const ContainerOne = styled.div`
 
   @media screen and (max-width: 1024px) {
     width: 100vw;
-    padding: 0;
+    padding: 3rem;
+    width: fit-content;
   }
 `;
 
@@ -55,8 +57,8 @@ const ContainerTwo = styled.div`
   padding: 3rem;
 
   @media screen and (max-width: 1024px) {
-    width: 100vw;
     padding: 0;
+    min-width: fit-content;
   }
 `;
 
@@ -67,6 +69,11 @@ const ContainerTwoBody = styled.div`
   .heading {
     color: rgb(74, 144, 226);
     font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding: 3rem;
+    width: fit-content;
   }
 `;
 
