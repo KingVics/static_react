@@ -9,7 +9,7 @@ const CarouselContainer = styled.div`
   margin: 10rem;
 
   @media screen and (max-width: 1024px) {
-    margin: 3rem;
+    margin: 2rem;
   }
 `;
 
@@ -38,8 +38,12 @@ const CarouselCard = styled.div`
 
   @media screen and (max-width: 600px) {
     display: grid !important;
-    height: 60rem;
-    border-radius: 0rem;
+    height: fit-content;
+    border-radius: 0;
+
+    img {
+      height: 200px !important;
+    }
 
     .image {
       width: 100%;
@@ -174,6 +178,7 @@ const Carousel = () => {
                     style={{
                       verticalAlign: "middle",
                       overflow: "clip",
+                      width: "100%",
                       height: "500px",
                       objectFit: "cover",
                     }}
