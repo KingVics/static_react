@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 
 const BodyContainer = styled.div`
@@ -98,6 +99,8 @@ const BannerButton = styled.button`
 `;
 
 const FirstMainBody = ({ toggleModal }) => {
+  const { t } = useTranslation();
+
   const [reasons, setReasons] = useState([
     {
       reasonHeading: "Educate Business Patrons -",
@@ -170,8 +173,8 @@ const FirstMainBody = ({ toggleModal }) => {
             </TextBody>
 
             <TextHeading>
-              $100 is a small amount compared to how much a properly managed
-              website would generate.
+              {t("promotion_price")} is a small amount compared to how much a
+              properly managed website would generate.
             </TextHeading>
             <TextBody>
               iBCScorp has always been passionate about helping small businesses

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 
 const BannerContainer = styled.div`
@@ -48,10 +49,14 @@ const BannerButton = styled.button`
 `;
 
 const Banner = ({ toggleModal }) => {
+  const { t } = useTranslation();
+
   return (
     <div>
       <BannerContainer>
-        <Bannerheading>Get a full-service website for only $100</Bannerheading>
+        <Bannerheading>
+          Get a full-service website for only {t("promotion_price")}
+        </Bannerheading>
 
         <BannerSubText>Limited time offer</BannerSubText>
 
