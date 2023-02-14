@@ -35,12 +35,18 @@ const Locations = () => {
             #109, Twin Falls, ID, 83301
           </p>
 
-          <img
-            src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
-            alt="phone icon"
-            loading="lazy"
-          />
-          <strong> +1 208-315-9772</strong>
+          <a href="tel:+1-208-315-9772">
+            <span
+              style={{ display: "flex", alignItems: "center", gap: "1rem" }}
+            >
+              <img
+                src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
+                alt="phone icon"
+                loading="lazy"
+              />
+              <strong> +1-208-315-9772</strong>
+            </span>
+          </a>
         </>
       ),
     },
@@ -52,27 +58,39 @@ const Locations = () => {
         <>
           <p>
             <strong>Bngalore - </strong> #13, 3rd Floor, Tawakkal Chancery,
-            Banaswadi Main, Cooke Town, Bangalore 560005 <br />{" "}
+            Banaswadi Main, Cooke Town, Bangalore 560005 <br />
           </p>
 
-          <img
-            src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
-            alt="phone icon"
-            loading="lazy"
-          />
-          <strong>+91-636-067-3052</strong>
+          <a href="tel:+91-636-067-3052">
+            <span
+              style={{ display: "flex", alignItems: "center", gap: "1rem" }}
+            >
+              <img
+                src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
+                alt="phone icon"
+                loading="lazy"
+              />
+              <strong>+91-636-067-3052</strong>
+            </span>
+          </a>
 
           <p>
             <strong>Hyderabad - </strong> DSL Abacus IT Park, Survey Colony,
             Industrial Development Area, Secunderabad, Telangana-500039 <br />{" "}
           </p>
 
-          <img
-            src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
-            alt="phone icon"
-            loading="lazy"
-          />
-          <strong>+91- 7013-923-339</strong>
+          <a href="tel:+91-7013-923-339">
+            <span
+              style={{ display: "flex", alignItems: "center", gap: "1rem" }}
+            >
+              <img
+                src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
+                alt="phone icon"
+                loading="lazy"
+              />
+              <strong>+91-7013-923-339</strong>
+            </span>
+          </a>
         </>
       ),
     },
@@ -84,24 +102,37 @@ const Locations = () => {
         <>
           <p>
             <strong>Owerri Imo - </strong> 132A Wethdral Road, Owerri, Imo
-            State, Nigeria 460242 <br />{" "}
+            State, Nigeria 460242 <br />
           </p>
-          <img
-            src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
-            alt="phone icon"
-            loading="lazy"
-          />
-          <strong>+234-706-831-3709</strong>
+          <a href="tel:+234-706-831-3709">
+            <span
+              style={{ display: "flex", alignItems: "center", gap: "1rem" }}
+            >
+              <img
+                src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
+                alt="phone icon"
+                loading="lazy"
+              />
+              <strong>+234-706-831-3709</strong>
+            </span>
+          </a>
           <p>
             <strong>Lagos Nigeria - </strong> 7th Floor, Mulliner Towers. 39,
-            Alfred Rewane Road, Ikoyi, Lagos. <br />{" "}
+            Alfred Rewane Road, Ikoyi, Lagos. <br />
           </p>
-          <img
-            src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
-            alt="phone icon"
-            loading="lazy"
-          />
-          <strong>+234-810-469-7704</strong> <br /> <br />
+          <a href="tel:+234-810-469-7704">
+            <span
+              style={{ display: "flex", alignItems: "center", gap: "1rem" }}
+            >
+              <img
+                src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
+                alt="phone icon"
+                loading="lazy"
+              />
+              <strong>+234-810-469-7704</strong>
+            </span>
+          </a>
+          <br /> <br />
           <a href="mailto:sales@ibcscorp.com">sales@ibcscorp.com</a>
         </>
       ),
@@ -117,12 +148,18 @@ const Locations = () => {
             Musgrave, Durban, South Africa <br />
           </p>
 
-          <img
-            src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
-            alt="phone icon"
-            loading="lazy"
-          />
-          <strong>+278-1340-5719</strong>
+          <a href="tel:+278-1340-5719">
+            <span
+              style={{ display: "flex", alignItems: "center", gap: "1rem" }}
+            >
+              <img
+                src="https://images.primeagile.com/ibcscorp_com/image/20506/call-icon.webp"
+                alt="phone icon"
+                loading="lazy"
+              />
+              <strong>+278-1340-5719</strong>
+            </span>
+          </a>
         </>
       ),
     },
