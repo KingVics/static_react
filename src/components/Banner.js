@@ -36,6 +36,7 @@ const BannerButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   margin: 1rem 0;
+  gap: 2rem;
 `;
 
 const BannerButton = styled.button`
@@ -62,6 +63,10 @@ const Banner = ({ toggleModal }) => {
 
         <BannerButtonContainer>
           <BannerButton onClick={toggleModal}>Get started now</BannerButton>
+
+          <a href={`tel:${t("phone_number")}`}>
+            <BannerButton>Call now</BannerButton>
+          </a>
         </BannerButtonContainer>
       </BannerContainer>
     </div>

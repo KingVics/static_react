@@ -79,7 +79,7 @@ const Locations = () => {
             Industrial Development Area, Secunderabad, Telangana-500039 <br />{" "}
           </p>
 
-          <a href="tel:+91-7013-923-339">
+          <a href="tel:+91-701-392-3339">
             <span
               style={{ display: "flex", alignItems: "center", gap: "1rem" }}
             >
@@ -88,7 +88,7 @@ const Locations = () => {
                 alt="phone icon"
                 loading="lazy"
               />
-              <strong>+91-7013-923-339</strong>
+              <strong>+91-701-392-3339</strong>
             </span>
           </a>
         </>
