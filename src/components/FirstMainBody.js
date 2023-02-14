@@ -225,6 +225,10 @@ const FirstMainBody = ({ toggleModal }) => {
             })}
 
             <BannerButton onClick={toggleModal}>Get started now</BannerButton>
+
+            <a href={`tel:${t("phone_number")}`} style={{ margin: "0 1rem" }}>
+              <BannerButton>Call now</BannerButton>
+            </a>
           </ContainerTwoBody>
         </ContainerTwo>
       </BodyContainer>
