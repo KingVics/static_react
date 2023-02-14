@@ -5,6 +5,7 @@ import FirstMainBody from "../components/FirstMainBody";
 import Footer from "../components/Footer";
 import GetStarted from "../components/GetStarted";
 import GetStartedModal from "../components/GetStartedModal";
+import Localization from "../components/Localization";
 import Locations from "../components/Locations";
 import NavBar from "../components/NavBar";
 import NotificationModal from "../components/NotificationModal";
@@ -138,6 +139,8 @@ const Main = () => {
       <Locations />
 
       <Footer />
+
+      {/* <Localization /> */}
     </div>
   );
 };
